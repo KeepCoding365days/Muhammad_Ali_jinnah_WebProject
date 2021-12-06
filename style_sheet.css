@@ -1,9 +1,11 @@
 
+    @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
     .first{
         display: flex;
         flex-direction: row;
-        width: 100%;
-        
+        width:100%;
+        background-color: green;
+                
         
         
     
@@ -12,15 +14,73 @@
         background-color: aliceblue;
         flex-grow: 2;
         margin: 2px 2px;
+        padding: 2px 2px;
         border-style: hidden;
-        border-radius: 30px;
+        border-radius: 1000px;
     }
     .text_col{
         flex-grow: 2;
         margin: 2px 2px 2px 2px;
+        padding: 2px 2px;
+        color: white;
     }
     .align_mid{
         text-align: center;
     }
-    
 
+    .nav{
+        display:flex;
+        flex-direction: row;
+        background-color: black;
+        align-content: center;
+        text-align: center;
+        height: 60px;
+    }
+    
+    .link{
+        color: white;
+        margin: 18px 14px 14px 10px;
+        text-decoration:none;
+        font-size: 20px;
+    
+        
+    }
+    a:hover{
+        color:turquoise;
+    }
+    .breadcumb{
+       
+       margin: 5px 25px 0px 25px;
+       border-radius:50px;
+     
+    }
+
+    .header{
+        background-color: black;
+    }
+    .PermanentMarker{
+        font-family: "Permanent Marker";
+        font-style: italic;
+        color: white;
+    }
+    .footer{
+        background-color: black;
+        display:flex;
+        flex-direction: row;
+
+    }
+    .rows{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 30px 0px 10px;
+    }
+    .grow{
+        flex-grow: 1;
+    }
+    .quote{
+        font-size: 20px;
+        text-align: center;
+
+        
+        
+    }
